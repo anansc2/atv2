@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#topo {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	background-color: rgba(0,0,0,0.7);
+	color: rgba(225,225,225,1);
+	text-align: center;
+	padding-top: 10px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size:24px;
+}
+body {
+	background-image: url("img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+/*----------------Barra lateral de Navegação*/
+#le {
+	width: 3%;
+	height: 1000px;
+	position: relative;
+	background: rgba(0,0,0,0.9);
+	color: white;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+#aaa {
+	width: 100%;
+}
+.menu {
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	box-shadow: 0 0 8px #000;
+}
+ul {
+	list-style-type: none;
+	height: 100px;
+}
+li {
+	height: 80px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px dashed white;
+}
+li a {
+	text-decoration: none;
+	color: white;
+	text-align: left;
+	display: block;
+	overflow: hidden;
+	padding-left: 45px;
+}
+#menu {
+	height: 40px;
+	border-bottom: 2px dashed white;
+	position: relative;
+	background-color: rgba(0,0,0,0.7);
+}
+#menuimg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 38px;
+	width: 40px;
+	z-index: 1;
+}
+/*------------Área central de conteúdos*/
+#ld {
+	width: 97%;
+	height: 1000px;
+	position: relative;
+	color: white;
+	float: left;
+	z-index: -2;
+}
+#ld section {
+	width: 100%;
+	height: inherit;
+	color: black;
+}
+.tit {
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0,0,0,0.9);
+	color: yellow;
+	text-align: center;
+}
+/*---------------sobre*/
+#sobre {
+	display: block;
+}
+article #skils {
+	width: 100%;
+	height: 1000px;
+	position: relative;
+}
+/*------------#sobre skils*/
+.titskils {
+	height: 50px;
+	margin: 10px 30px;
+	box-shadow: 0 0 8px #000;
+	color: white;
+	background-color: #6478a7;
+	text-align: center;
+	padding-top: 15px;
+}
+#tsobre {
+	background-color: #6478a7;
+}
+#tcampo {
+	background-color: #6e88b2;
+}
+#tperfil {
+	background-color: #7898bd;
+}
+#tmerc {
+	background-color: #82a7c8;
+}
+#tdur {
+	background-color: #8cb7d3;
+}
+#tfor {
+	background-color: #96c7de;
+}
+.pskils {
+	display: none;
+	margin: 0 30px;
+	font-family: Verdana;
+	text-align: justify;
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+}
+/*-----------------#professores*/
+#profes {
+	display: none;
+}
+#professores {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.p {
+	height: 150px;
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.pp {
+	height: 30px;
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.fip {
+	height: 200px;
+	width: 33%;
+	float: left;
+	position: relative;
+}
+.ip {
+	height: 200px;
+	width: 100%;
+	float: left;
+	padding-left: 25%;
+	padding-right: 25%;
+
+}
+/*--------------#footer*/
+footer {
+	height: 51px;
+	position: relative;
+	width: 100%;
+	clear: both;
+	bottom: 0;
+}
+#line {
+	height: 1px;
+	width: 100%;
+	position: relative;
+	background-color: rgba(0,0,55,0.9);
+	clear: both;
+	bottom: 0;
+}
+#fot {
+	height: 50px;
+	width: 100%;
+	background-color: rgba(0,0,0,1);
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
+.ativo {
+	display: block;
+}
